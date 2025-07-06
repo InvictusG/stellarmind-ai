@@ -1,4 +1,4 @@
-# WhyBot 项目当前状态
+# StellarMind AI 项目当前状态
 
 ## ✅ 运行状态
 - **服务器**: 正常运行在 http://localhost:3000
@@ -20,7 +20,7 @@
 
 ## 📁 项目结构
 ```
-D:\whybot/
+E:\stellarmind-ai/
 ├── app/
 │   ├── page.tsx (874行 - 主页面，包含完整功能)
 │   ├── layout.tsx (74行 - 根布局)

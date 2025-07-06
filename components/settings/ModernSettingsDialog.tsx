@@ -635,8 +635,8 @@ function HelpPanel() {
           <h4 className="font-medium text-slate-900 dark:text-white mb-2">
             快速入门
           </h4>
-          <p className="text-slate-600 dark:text-slate-400 text-sm">
-            了解如何使用WhyBot进行思维导图探索
+          <p className="text-sm text-gray-600 dark:text-gray-300">
+            了解如何使用StellarMind AI进行思维导图探索
           </p>
         </div>
         
@@ -662,7 +662,7 @@ function HelpPanel() {
       {/* 版本信息 */}
       <div className="p-4 bg-slate-50 dark:bg-slate-800/50 rounded-lg border border-slate-200 dark:border-slate-700 text-center">
         <div className="text-slate-600 dark:text-slate-400 text-sm">
-          WhyBot v1.0.0 - AI思维导图探索器
+                          StellarMind AI v1.0.0 - AI知识图谱平台
         </div>
       </div>
     </div>

@@ -37,7 +37,7 @@ if [ ! -f "package.json" ]; then
 fi
 
 # 检查是否是 StellarMind AI 项目
-if ! grep -q "whybot" package.json; then
+if ! grep -q "stellarmind-ai" package.json; then
     echo "❌ 这不是 StellarMind AI 项目"
     exit 1
 fi

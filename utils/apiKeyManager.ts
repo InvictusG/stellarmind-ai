@@ -40,8 +40,8 @@ export interface ValidationResult {
  * 本地存储键名
  */
 export const STORAGE_KEYS = {
-  API_KEYS: 'whybot_api_keys',
-  DEFAULT_KEY: 'whybot_default_api_key'
+  API_KEYS: 'stellarmind_api_keys',
+  DEFAULT_KEY: 'stellarmind_default_api_key'
 } as const
 
 /**

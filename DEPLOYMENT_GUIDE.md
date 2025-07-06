@@ -1,6 +1,6 @@
 # StellarMind AI 部署指南
 
-将WhyBot部署到stellarmindai.com域名的完整指南。
+将StellarMind AI部署到stellarmindai.com域名的完整指南。
 
 ## 🎯 部署概述
 
@@ -42,7 +42,7 @@ sudo apt install -y nginx nodejs npm postgresql postgresql-contrib certbot pytho
 sudo npm install -g pm2
 
 # 克隆项目
-git clone https://github.com/yourusername/whybot.git /var/www/stellarmind
+git clone https://github.com/InvictusG/stellarmind-ai.git /var/www/stellarmind
 cd /var/www/stellarmind
 
 # 安装依赖
@@ -488,7 +488,7 @@ sudo systemctl restart postgresql
 
 ## 📞 技术支持
 
-- **项目仓库**: https://github.com/yourusername/whybot
+- **项目仓库**: https://github.com/InvictusG/stellarmind-ai
 - **问题反馈**: Issues页面
 - **邮箱支持**: support@stellarmindai.com
 

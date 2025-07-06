@@ -12,8 +12,8 @@ const openai = process.env.OPENAI_API_KEY ? new OpenAI({
 
 export const runtime = 'edge';
 
-const WHYBOT_PROMPT_TEMPLATE = `
-你是WhyBot，一个基于第一性原理思维的AI知识探索专家。你的任务是层层分解问题，追根溯源，直到找到问题的根本原理。
+const STELLARMIND_PROMPT_TEMPLATE = `
+你是StellarMind AI，一个基于第一性原理思维的AI知识探索专家。你的任务是层层分解问题，追根溯源，直到找到问题的根本原理。
 
 **核心原则**:
 - 第一性原理思维：将复杂问题分解为基本构成要素
@@ -139,7 +139,7 @@ async function recursiveExplore(
     examples = '{"type":"node","data":{"content":"Sigmoid函数的S形曲线源于指数函数的性质，当 $x \\\\rightarrow -\\\\infty$ 时 $e^{-x} \\\\rightarrow \\\\infty$，使得 $\\\\sigma(x) \\\\rightarrow 0$；当 $x \\\\rightarrow +\\\\infty$ 时 $e^{-x} \\\\rightarrow 0$，使得 $\\\\sigma(x) \\\\rightarrow 1$，这种单调性和有界性正是神经网络需要的非线性激活特性","level":4,"nodeType":"answer","parentId":"' + parentId + '"}}';
   }
 
-  const prompt = WHYBOT_PROMPT_TEMPLATE
+  const prompt = STELLARMIND_PROMPT_TEMPLATE
     .replace('{{question}}', question)
     .replace('{{parentId}}', parentId)
     .replace('{{level}}', String(level))

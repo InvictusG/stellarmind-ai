@@ -68,10 +68,10 @@ export default function ModernAppLayout({ children }: ModernAppLayoutProps) {
             {/* Logo */}
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gray-900 dark:bg-white rounded-lg flex items-center justify-center">
-                <span className="text-white dark:text-gray-900 font-bold text-sm">W</span>
+                <span className="text-white dark:text-gray-900 font-bold text-sm">S</span>
               </div>
               <span className="text-xl font-semibold text-gray-900 dark:text-white">
-                WhyBot
+                StellarMind
               </span>
             </div>
 

@@ -1,4 +1,4 @@
-# 🚀 WhyBot 快速开始指南
+# 🚀 StellarMind AI 快速开始指南
 
 ## 📋 当前状态诊断
 

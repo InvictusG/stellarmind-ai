@@ -38,7 +38,7 @@ if (-not (Test-Path "package.json")) {
 
 # 检查是否是 StellarMind AI 项目
 $packageContent = Get-Content "package.json" -Raw
-if (-not ($packageContent -like "*whybot*")) {
+if (-not ($packageContent -like "*stellarmind-ai*")) {
     Write-Host "❌ 这不是 StellarMind AI 项目" -ForegroundColor Red
     exit 1
 }

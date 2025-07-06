@@ -48,10 +48,13 @@ export interface UserData {
 
 // ==================== 本地存储操作 ====================
 
+/**
+ * 本地存储键名
+ */
 const STORAGE_KEYS = {
-  SESSIONS: 'whybot_sessions',
-  USER_DATA: 'whybot_user_data',
-  CURRENT_SESSION: 'whybot_current_session'
+  SESSIONS: 'stellarmind_sessions',
+  USER_DATA: 'stellarmind_user_data',
+  CURRENT_SESSION: 'stellarmind_current_session'
 } as const
 
 /**
